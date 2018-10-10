@@ -67,6 +67,34 @@ li a {
 
 }
 
+#google-apps {
+  position: absolute; 
+  left: 1290px; 
+  top: 25px;
+}
+
+#sign-in {
+  color: white;
+  background-color: #4285f4;
+  font-weight: bold;
+  font-size: 12px;
+  border-radius: 2px;
+  border-style: hidden;
+  width: 70px;
+  height: 31px;
+  position: absolute;
+  left: 1328px; 
+  top: 15px; 
+  
+
+}
+
+.signbut:hover{
+  box-shadow: 0px .5px 5px rgb(184, 186, 188);
+  
+
+}
+
 
 li a:hover {
   text-decoration: underline;
@@ -105,20 +133,28 @@ input:hover {
 
 }
 
-button {
+.search button{
   border-style: hidden;
   border-width: thin;
   color: rgba(0,0,0,.54);
   background:  rgb(239, 239, 237);
   font-size: 12px;
-  padding: 8px 12px;
+  padding: 8px 14px;
   font-weight: bold;
   margin: 8px 3px 16px 3px;
   
 
 }
 
-#centbut{
+.search button:hover {
+  border-style: solid;
+  border-width: thin;
+  margin: 7px 2px 15px 2px;
+  color: rgb(0, 0, 0);
+
+}
+
+#centbut {
   text-align: center;
  }
 
