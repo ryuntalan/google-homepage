@@ -1,0 +1,1 @@
+This is my first odin project and I made a google homepage replica. I used hover function for underlining buttons and shadowing the search bar. I learned to create a navigation bar and how to center images. I got a better understanding of layout and margin/ padding use.
