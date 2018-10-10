@@ -1,0 +1,166 @@
+
+
+.center {
+
+  margin: 10px auto 20px;
+  display: block;
+  width: 400px;
+
+
+}
+
+<!--horizontal navigation bar-->
+ul {
+    list-style-type: none;
+    margin: ;
+    padding: 0;
+    overflow: hidden;
+  
+
+    
+    
+}
+
+li {
+  display: inline-block; 
+ 
+
+ 
+}
+
+li a {
+  color: rgb(42, 42, 56);
+  text-align: center;
+  padding: 14px 5px;
+  text-decoration: none;
+  font-family: Helvetica;
+  font-size: 13px;
+
+
+}
+
+#abt {
+  position: absolute; 
+  left: 17px; 
+  top: 23px; 
+
+}
+
+#str {
+  position: absolute; 
+  left: 69px; 
+  top: 23px; 
+
+}
+
+#gma {
+  position: absolute; 
+  left: 1170px; 
+  top: 23px; 
+
+}
+
+#ima {
+  position: absolute; 
+  left: 1222px; 
+  top: 23px; 
+
+}
+
+
+li a:hover {
+  text-decoration: underline;
+
+}
+
+
+.SearchBar {
+  font-size: 18px;
+  font-family: "Helvetica";
+  border: 1px solid black;
+  border-radius: 2px;
+  
+
+}
+
+input[type=text] {
+  padding: 10px 30px;
+  
+}
+
+input.SearchBar {
+  color: black;
+
+}
+
+
+
+.shadow {
+ box-shadow: 1px 2px rgb(184, 186, 188);
+ opacity: 0.3;
+
+}
+
+input:hover {
+  box-shadow: 3px 3px rgb(184, 186, 188);
+  opacity: 0.4;
+
+}
+
+
+.footer {
+  background-color: rgb(239, 239, 237);
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+ 
+
+  
+  
+}
+
+.footer a{
+  float: left;
+  display: block;
+  padding: 14px 16px;
+  color: rgb(91, 91, 91);
+
+}
+
+
+#adv {
+  position: absolute; 
+  left: 0px;
+  padding:  0px 16px 0px 16px;
+
+
+}
+
+#bus {
+  position: absolute; 
+  left: 100px; 
+
+
+}
+
+#priv {
+  position: absolute; 
+  left: 1219px; 
+
+
+}
+
+#term {
+  position: absolute; 
+  left: 1282px; 
+
+}
+
+#set {
+  position: absolute; 
+  left: 1345px; 
+
+
+}
