@@ -4,7 +4,7 @@
 
   margin: 10px auto 20px;
   display: block;
-  width: 400px;
+  
 
 
 }
@@ -75,10 +75,13 @@ li a:hover {
 
 
 .SearchBar {
-  font-size: 18px;
+  font-size: 16px;
   font-family: "Helvetica";
-  border: 1px solid black;
+  border: 1px solid rgb(193, 193, 193);
   border-radius: 2px;
+  width: 410px;
+  background-color: white;
+  color: rgb(5, 5, 5);
   
 
 }
@@ -86,26 +89,38 @@ li a:hover {
 input[type=text] {
   padding: 10px 30px;
   
+  
 }
-
-input.SearchBar {
-  color: black;
-
-}
-
 
 
 .shadow {
- box-shadow: 1px 2px rgb(184, 186, 188);
- opacity: 0.3;
+ box-shadow: 1px 1px 5px rgb(184, 186, 188);
+
 
 }
 
 input:hover {
-  box-shadow: 3px 3px rgb(184, 186, 188);
-  opacity: 0.4;
+  box-shadow: 2px 2px 5px rgb(184, 186, 188);
+
 
 }
+
+button {
+  border-style: hidden;
+  border-width: thin;
+  color: rgba(0,0,0,.54);
+  background:  rgb(239, 239, 237);
+  font-size: 12px;
+  padding: 8px 12px;
+  font-weight: bold;
+  margin: 8px 3px 16px 3px;
+  
+
+}
+
+#centbut{
+  text-align: center;
+ }
 
 
 .footer {
